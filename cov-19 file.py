@@ -78,11 +78,12 @@ CSV_FILE = 'casesstate.csv'
 # Read the CSV data into a pandas DataFrame
 df = pd.read_csv(CSV_FILE)
 state_name = input('input state: ')
+
 # Filter the data to get only the rows corresponding to state_data
-state_data = df[df['state'] == state_name ]
+state_data = df[df['state'] == state_name]
 
 # Convert the date column to datetime format for better x-axis representation
-state_data['date'] = pd.to_datetime(state_data['date'])
+state_data.loc[:, 'date'] = pd.to_datetime(state_data['date'])
 
 # Get the new cases column for state_new_cases
 state_new_cases = state_data['cases_new']
@@ -92,7 +93,7 @@ plt.figure(figsize=(20, 10))
 plt.plot(state_data['date'], state_new_cases)
 plt.xlabel('Date')
 plt.ylabel('New Cases')
-plt.title('Trend of New COVID-19 Cases in'+ state_name)
+plt.title('Trend of New COVID-19 Cases in ' + state_name)
 
 # Set the major locator for years on the x-axis
 years = mdates.YearLocator()
@@ -102,7 +103,6 @@ plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
-
 
 
 # %%
