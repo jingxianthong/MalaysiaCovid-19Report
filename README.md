@@ -21,17 +21,23 @@ for this to work
 
 ![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/2810b0f7-cead-4585-a6ec-b72f3aafb35f)
 5. find cmd and type where python
+
 ![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/d9f69e07-c584-4d28-89f1-2302b087bceb)
 6. copy the path and put it here
+
 ![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/4bbd948f-eda9-44a2-8d83-d8a41851b985)
 7. add arguments ((optional)** is a must**) put name.py
+
 ![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/9e1ade46-6dce-4fb5-9ac0-2e62cf0c0131)
 8. start in, select a path where to find the program
 9.right-click in visual click Reveal in File Explorer
+
 ![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/d61bfd4d-3e69-4394-9639-b1b5fad36e25)
 10.copy the path 
+
 ![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/21725052-3741-4e0f-b131-5c7864840632)
 11.pasta the path inside
+
 ![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/ffa18b32-f406-4c45-b157-196429c5589e)
 
 
