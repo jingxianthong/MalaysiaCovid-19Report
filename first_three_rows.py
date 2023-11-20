@@ -1,40 +1,48 @@
-import requests
 import pandas as pd
 import logging
 import io
+import os
 
 # Set up logging
 logging.basicConfig(filename='update.log', level=logging.INFO, format='%(asctime)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
-# path to CSV file
-csv_url = "deaths_malaysia.csv"
+# Get the current working directory
+current_directory = os.getcwd()
 
-# Download the CSV file
-response = requests.get(csv_url)
+# Path to the local CSV file (assuming deaths_malaysia.csv is in the same directory as the script)
+csv_path = os.path.join(current_directory, 'deaths_malaysia.csv')
 
-# Check if the request was successful
-if response.status_code == 200:
-    # Decode content to string
-    content = response.content.decode('utf-8')
-    
-    # Read the CSV from the string
-    df = pd.read_csv(io.StringIO(content))
+# Read the CSV file
+try:
+    with open(csv_path, 'r') as file:
+        # Read the CSV from the file
+        df = pd.read_csv(file)
 
-    # Extract the latest date
-    latest_date = df['date'].max()
+        # Extract the latest date
+        latest_date = df['date'].max()
 
-    # Log the latest date
-    logging.info(f"The latest date in the CSV file is: {latest_date}")
+        # Log the latest date
+        logging.info(f"The latest date in the CSV file is: {latest_date}")
 
-    # Get the first 3 rows of the CSV
-    first_3_rows = df.head(3)
+        # Find the first 3 rows of data
+        first_3_rows = df.head(3)
 
-    # Log the first 3 rows to date.log
-    first_3_rows.to_csv('date.log', index=False)
+        # Log date information from the first 3 rows into date.log
+        first_3_dates = first_3_rows['date'].tolist()
+        with open('date.log', 'w') as date_file:
+            for date in first_3_dates:
+                date_file.write(f"{date}\n")
 
-    # Add the first 3 rows to an HTML file
-    first_3_rows.to_html('output.html', index=False)
+        # Add date information to an HTML file
+        html_content = "<html><body><h1>First 3 Dates</h1><ul>"
+        for date in first_3_dates:
+            html_content += f"<li>{date}</li>"
+        html_content += "</ul></body></html>"
 
-    logging.info("First 3 rows logged to date.log and added to output.html.")
-else:
-    logging.error(f"Failed to fetch the CSV file. Status code: {response.status_code}")
+        with open('output.html', 'w') as html_file:
+            html_file.write(html_content)
+
+except FileNotFoundError:
+    logging.error(f"File not found: {csv_path}")
+except Exception as e:
+    logging.error(f"An error occurred: {str(e)}")
