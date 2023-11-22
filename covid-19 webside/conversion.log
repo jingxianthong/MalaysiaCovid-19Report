@@ -1,0 +1,54 @@
+2023-10-03 22:28:47,982 - INFO - CSV file successfully converted to HTML.
+2023-10-06 23:46:25,450 - INFO - CSV file successfully converted to HTML.
+2023-10-07 22:28:58,837 - INFO - CSV file successfully converted to HTML.
+2023-10-08 22:28:48,804 - INFO - CSV file successfully converted to HTML.
+2023-10-09 22:28:48,369 - INFO - CSV file successfully converted to HTML.
+2023-10-10 22:28:50,828 - INFO - CSV file successfully converted to HTML.
+2023-10-11 22:38:29,926 - INFO - CSV file successfully converted to HTML.
+2023-10-12 22:28:48,394 - INFO - CSV file successfully converted to HTML.
+2023-10-13 22:28:50,887 - INFO - CSV file successfully converted to HTML.
+2023-10-14 21:49:47,530 - INFO - CSV file successfully converted to HTML.
+2023-10-14 21:50:50,012 - INFO - CSV file successfully converted to HTML.
+2023-10-14 21:52:11,440 - INFO - CSV file successfully converted to HTML.
+2023-10-14 22:28:46,783 - INFO - CSV file successfully converted to HTML.
+2023-10-15 20:28:58,895 - INFO - CSV file successfully converted to HTML.
+2023-10-15 20:29:32,562 - INFO - CSV file successfully converted to HTML.
+2023-10-15 22:28:46,011 - INFO - CSV file successfully converted to HTML.
+2023-10-16 22:28:48,201 - INFO - CSV file successfully converted to HTML.
+2023-10-18 22:28:48,655 - INFO - CSV file successfully converted to HTML.
+2023-10-19 22:28:49,799 - INFO - CSV file successfully converted to HTML.
+2023-10-21 00:08:40,007 - INFO - CSV file successfully converted to HTML.
+2023-10-21 23:12:43,856 - INFO - CSV file successfully converted to HTML.
+2023-10-22 22:28:49,170 - INFO - CSV file successfully converted to HTML.
+2023-10-23 22:28:47,585 - INFO - CSV file successfully converted to HTML.
+2023-10-24 22:28:47,702 - INFO - CSV file successfully converted to HTML.
+2023-10-25 22:28:49,215 - INFO - CSV file successfully converted to HTML.
+2023-10-27 22:28:49,243 - INFO - CSV file successfully converted to HTML.
+2023-10-29 22:28:48,814 - INFO - CSV file successfully converted to HTML.
+2023-10-30 22:28:48,437 - INFO - CSV file successfully converted to HTML.
+2023-10-31 22:28:47,695 - INFO - CSV file successfully converted to HTML.
+2023-11-01 22:28:48,782 - INFO - CSV file successfully converted to HTML.
+2023-11-02 22:28:48,405 - INFO - CSV file successfully converted to HTML.
+2023-11-03 22:28:49,089 - INFO - CSV file successfully converted to HTML.
+2023-11-04 22:28:47,985 - INFO - CSV file successfully converted to HTML.
+2023-11-05 22:28:49,061 - INFO - CSV file successfully converted to HTML.
+2023-11-06 22:46:40,153 - INFO - CSV file successfully converted to HTML.
+2023-11-07 23:33:46,355 - INFO - CSV file successfully converted to HTML.
+2023-11-08 22:28:48,017 - INFO - CSV file successfully converted to HTML.
+2023-11-09 22:28:48,168 - INFO - CSV file successfully converted to HTML.
+2023-11-10 22:28:48,646 - INFO - CSV file successfully converted to HTML.
+2023-11-13 22:29:45,850 - INFO - CSV file successfully converted to HTML.
+2023-11-14 22:28:48,674 - INFO - CSV file successfully converted to HTML.
+2023-11-15 22:28:48,292 - INFO - CSV file successfully converted to HTML.
+2023-11-16 22:28:48,198 - INFO - CSV file successfully converted to HTML.
+2023-11-17 22:28:48,807 - INFO - CSV file successfully converted to HTML.
+2023-11-18 22:28:49,269 - INFO - CSV file successfully converted to HTML.
+2023-11-19 22:28:45,906 - INFO - CSV file successfully converted to HTML.
+2023-11-20 22:28:48,276 - INFO - CSV file successfully converted to HTML.
+2023-11-20 22:56:40,123 - ERROR - An error occurred: [Errno 2] No such file or directory: 'path/to/deaths_malaysia.csv'
+2023-11-20 23:00:26,022 - ERROR - An error occurred: [Errno 2] No such file or directory: 'path/to/deaths_malaysia.csv'
+2023-11-20 23:00:47,049 - ERROR - An error occurred: [Errno 2] No such file or directory: 'path/to/deaths_malaysia.csv'
+2023-11-20 23:01:24,635 - ERROR - An error occurred: [Errno 2] No such file or directory: 'path/to/deaths_malaysia.csv'
+2023-11-20 23:01:42,064 - INFO - CSV file successfully converted to HTML.
+2023-11-20 23:07:02,074 - INFO - CSV file successfully converted to HTML.
+2023-11-21 23:52:42,624 - INFO - CSV file successfully converted to HTML.
