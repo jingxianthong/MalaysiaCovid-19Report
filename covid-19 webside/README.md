@@ -1,17 +1,17 @@
 # MalaysiaCovid-19Report
 
-This is the code showing how many cases Malaysia has. we take raw dates from Malaysia covid19-public
-
-here is the link: https://github.com/MoH-Malaysia/covid19-public.
+This code retrieves the number of COVID-19 cases in Malaysia by fetching raw data from the official repository: https://github.com/MoH-Malaysia/covid19-public. Task Scheduler is implemented to automatically download the latest COVID-19 data at regular intervals.
 
 
-### In the project, i have used the **deaths_malaysia.csv** file to do the project
+### In this project, the **deaths_malaysia.csv** file serves as the primary dataset for analysis and implementation.
 
-**1. csv_to_html.py** converts a CSV file into HTML file
-![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/0b91d7b4-2f7a-48aa-b461-240285c88b46)
+## How do I use Task Scheduler? I have shown in the first steps.
+You don't have to initiate Python manually since Task Scheduler is employed for the automatic execution of every Python file in this project at regular intervals.
 
 
-**2. update.py** is to update/download a file within a selected time
+
+
+**1. update.py** is to update/download a file within a selected time
   for this to work 
   **First** go to task schedular
   ![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/258c5d44-e6cd-4510-8eba-c1ad20bdebd6)
@@ -23,7 +23,7 @@ here is the link: https://github.com/MoH-Malaysia/covid19-public.
   ![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/2810b0f7-cead-4585-a6ec-b72f3aafb35f)
   
   
-  5. find cmd and type where python
+  5. find cmd and type **where python**
   
   ![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/d9f69e07-c584-4d28-89f1-2302b087bceb)
   
@@ -54,6 +54,12 @@ here is the link: https://github.com/MoH-Malaysia/covid19-public.
   12. and u are done
 
 
+### **2. csv_to_html.py** converts a CSV file into HTML file
+
+
+![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/2a61a860-14e4-4920-9394-a1d358d60873)
+
+![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/6944f67c-7ca4-496a-918c-1846fd7de176)
 
 
 
