@@ -5,7 +5,9 @@ This code retrieves the number of COVID-19 cases in Malaysia by fetching raw dat
 
 ### In this project, the **deaths_malaysia.csv** file serves as the primary dataset for analysis and implementation.
 
-## How do I use Task Scheduler? I have shown in the first steps.
+## Task Scheduler is operational as outlined earlier, with initial instructions provided.
+
+
 You don't have to initiate Python manually since Task Scheduler is employed for the automatic execution of every Python file in this project at regular intervals.
 
 
