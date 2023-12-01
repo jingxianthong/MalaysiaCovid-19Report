@@ -70,13 +70,15 @@ You don't have to initiate Python manually since Task Scheduler is employed for 
 
 
 
-### **3. first_7_days_data.py** is to find the first 7 days and convert them into HTML files.
+### **3. Last_7_days_data.py** is to find the last 7 days and convert them into HTML files.
 
-**first_7_days_data.html**  
-![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/3f5d864d-00e2-474f-a1b2-964e7014791f)
+**Last_7_days_data.html**  
 
-### **4. first_30_days_data.py** is to find the first 30 days and convert them into HTML files.
+![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/dad270e6-41ab-4256-b561-06727af34a30)
 
-**first_30_days_data.html**  
 
-![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/0e18fdbf-62dd-45b4-be96-7c28fa145629)
+### **4. Last_30_days.py** is to find the last 30 days and convert them into HTML files.
+
+**Last_30_days.html**  
+
+![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/e5202736-f30d-44fb-a0cd-f8ed57cd29ec)
