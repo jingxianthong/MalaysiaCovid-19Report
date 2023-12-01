@@ -50,6 +50,7 @@ for this to work
 11.pasta the path inside
 
 ![image](https://github.com/jingxianthong/MalaysiaCovid-19Report/assets/77329585/ffa18b32-f406-4c45-b157-196429c5589e)
+
 12. and u are done
 
 
@@ -61,7 +62,7 @@ for this to work
 
 
 
-### **first_three_rows.py** is to find the latest first three data  and convert them into 2 HTML files.
+### **first_three_rows.py** is to find the latest three data  and convert them into 2 HTML files.
 
 **first three rows.html**  and **output.html**
 
