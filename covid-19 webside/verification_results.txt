@@ -1,0 +1,23 @@
+Verifying index.html files:
+Verification: Last_7_days_data.html exists.
+Verification: Last_30_days.html exists.
+Verification: deaths_malaysia.html exists.
+Verification: state_graph.html exists.
+
+Verifying state_graph.html files:
+Verification: johor.html exists.
+Verification: kedah.html exists.
+Verification: kelantan.html exists.
+Verification: melaka.html exists.
+Verification: negeri sembilan.html exists.
+Verification: pahang.html exists.
+Verification: perak.html exists.
+Verification: perlis.html exists.
+Verification: pulau pinang.html exists.
+Verification: sabah.html exists.
+Verification: sarawak.html exists.
+Verification: selangor.html exists.
+Verification: terengganu.html exists.
+Verification: w.p. kuala lumpur.html exists.
+Verification: w.p. labuan.html exists.
+Verification: w.p. putrajaya.html exists.
