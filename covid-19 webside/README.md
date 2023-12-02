@@ -1,36 +1,61 @@
 
-**Objective:**
-The objective of the code is to generate individual HTML reports displaying the overall count of COVID-19 cases for different states. The data is sourced from a CSV file, and the generated HTML reports include a line chart illustrating the daily new cases for each state.
+## Report: COVID-19 State Data Visualization
 
-**Components:**
-1. **Data Source:**
-   - A CSV file (`cases_state.csv`) serves as the data source, containing information about COVID-19 cases, including state-wise data and dates.
+### Overview:
 
-2. **Libraries Used:**
-   - The code utilizes several Python libraries, including:
-     - `pandas` for data manipulation and analysis.
-     - `matplotlib` for creating data visualizations, specifically line charts.
-     - `mpld3` for converting the matplotlib plot to HTML format.
-     - `base64` and `BytesIO` for encoding and handling image data.
+The provided code is a Python script for generating HTML files with COVID-19 state data visualizations. The script reads data from a CSV file (`cases_state.csv`) containing COVID-19 cases information for different states. It uses Matplotlib and mpld3 for creating interactive line charts, and the resulting plots are embedded into HTML files.
 
-3. **Process Overview:**
-   - The user is prompted to input a state for which the COVID-19 data needs to be visualized.
-   - The code reads the CSV file into a pandas DataFrame.
-   - State-specific data is filtered from the DataFrame based on the user input.
-   - A line chart is generated using matplotlib, depicting the daily new cases over time.
-   - The chart is saved as an image in memory, encoded in base64 format.
-   - The base64-encoded image is embedded in an HTML template using mpld3's `fig_to_html` function.
-   - The generated HTML content is saved to a file named after the selected state.
+### Key Components:
 
-4. **Styling:**
-   - The HTML reports include a simple style setting, ensuring a clean and readable display.
-   - The image within the HTML is styled to be responsive and fit the width of the container.
+1. **`generate_state_html.py`:**
+    - Reads COVID-19 cases data from `cases_state.csv`.
+    - Takes user input for a specific state.
+    - Filters data for the selected state and creates a line chart.
+    - Saves the chart as an HTML file with embedded images.
 
-5. **Automation:**
-   - The code can be extended for automation by reading a list of states from a text file (`states.txt`) and generating individual HTML reports for each state. This is suitable for daily updates.
+2. **`index.html`:**
+    - Main HTML file with links to various data visualizations.
+    - Includes links to the Last 7 days, Last 30 days, Full data, and State Graph visualizations.
 
-**Usage:**
-   - The user can run the script, input a state, and the code will generate an HTML report displaying the COVID-19 cases graph for the selected state.
-   - For bulk processing, the list of states can be maintained in a text file, and the script can be automated to generate reports for all states.
+3. **`state_graph.html`:**
+    - HTML file containing links to individual state visualizations.
+    - Each state is represented as a hyperlink pointing to its respective HTML file.
 
+4. **State-specific HTML files:**
+    - HTML files generated for each state with embedded line charts.
+    - Each file is named after the respective state (e.g., `johor.html`, `kedah.html`, etc.).
 
+5. **`verification_results.txt`:**
+    - Text file containing verification results.
+    - Lists whether each HTML file mentioned in `index.html` and `state_graph.html` exists.
+
+### Execution:
+
+1. **Data Preparation:**
+    - COVID-19 cases data is expected to be in the `cases_state.csv` file.
+
+2. **Visualization Generation:**
+    - Run `generate_state_html.py`.
+    - Input a state name when prompted.
+    - Generates state-specific HTML files with embedded charts.
+
+3. **Verification:**
+    - Run the verification script to check if HTML files mentioned in `index.html` and `state_graph.html` exist.
+    - Results are saved in `verification_results.txt`.
+
+4. **Visualization Access:**
+    - Access the visualizations through the links provided in `index.html` and `state_graph.html`.
+
+### Recommendations:
+
+- Ensure that the required libraries (Pandas, Matplotlib, mpld3) are installed.
+- Maintain the CSV data file with up-to-date COVID-19 cases information.
+- Consider automating the daily update process using a task scheduler.
+
+### Conclusion:
+
+The script facilitates the generation of interactive HTML visualizations for COVID-19 cases data at both the state and national levels. The provided links in `index.html` and `state_graph.html` act as a user-friendly interface for accessing the visualizations.
+
+---
+
+Feel free to modify the report based on your specific requirements or add any additional details.
