@@ -7,7 +7,7 @@ The provided code is a Python script for generating HTML files with COVID-19 sta
 
 ### Key Components:
 
-1. **`generate_state_html.py`:**
+1. **`_state_html.py`:**
     - Reads COVID-19 cases data from `cases_state.csv`.
     - Takes user input for a specific state.
     - Filters data for the selected state and creates a line chart.
@@ -35,7 +35,7 @@ The provided code is a Python script for generating HTML files with COVID-19 sta
     - COVID-19 cases data is expected to be in the `cases_state.csv` file.
 
 2. **Visualization Generation:**
-    - Run `generate_state_html.py`.
+    - Run `find_state_html.py`.
     - Input a state name when prompted.
     - Generates state-specific HTML files with embedded charts.
 
