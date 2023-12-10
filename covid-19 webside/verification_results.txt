@@ -1,23 +1,23 @@
-Verifying index.html files:
-Verification: Last_7_days_data.html exists.
-Verification: Last_30_days.html exists.
-Verification: deaths_malaysia.html exists.
-Verification: state_graph.html exists.
 
-Verifying state_graph.html files:
-Verification: johor.html exists.
-Verification: kedah.html exists.
-Verification: kelantan.html exists.
-Verification: melaka.html exists.
-Verification: negeri sembilan.html exists.
-Verification: pahang.html exists.
-Verification: perak.html exists.
-Verification: perlis.html exists.
-Verification: pulau pinang.html exists.
-Verification: sabah.html exists.
-Verification: sarawak.html exists.
-Verification: selangor.html exists.
-Verification: terengganu.html exists.
-Verification: w.p. kuala lumpur.html exists.
-Verification: w.p. labuan.html exists.
-Verification: w.p. putrajaya.html exists.
+Verifying links:
+Verification: http://goatnetwork.ddns.net//index.html exists.
+Verification: http://goatnetwork.ddns.net//Last_7_days_data.html exists.
+Verification: http://goatnetwork.ddns.net//Last_30_days.html exists.
+Verification: http://goatnetwork.ddns.net//deaths_malaysia.html exists.
+Verification: http://goatnetwork.ddns.net//state_graph.html exists.
+Verification: http://goatnetwork.ddns.net//johor.html exists.
+Verification: http://goatnetwork.ddns.net//kedah.html exists.
+Verification: http://goatnetwork.ddns.net//kelantan.html exists.
+Verification: http://goatnetwork.ddns.net//melaka.html exists.
+Verification: http://goatnetwork.ddns.net//negeri%20sembilan.html exists.
+Verification: http://goatnetwork.ddns.net//pahang.html exists.
+Verification: http://goatnetwork.ddns.net//perlis.html exists.
+Verification: http://goatnetwork.ddns.net//perak.html exists.
+Verification: http://goatnetwork.ddns.net//pulau%20pinang.html exists.
+Verification: http://goatnetwork.ddns.net//sabah.html exists.
+Verification: http://goatnetwork.ddns.net//sarawak.html exists.
+Verification: http://goatnetwork.ddns.net//selangor.html exists.
+Verification: http://goatnetwork.ddns.net//terengganu.html exists.
+Verification: http://goatnetwork.ddns.net//w.p.%20kuala%20lumpur.html exists.
+Verification: http://goatnetwork.ddns.net//w.p.%20labuan.html exists.
+Verification: http://goatnetwork.ddns.net//w.p.%20putrajaya.html exists.
